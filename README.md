@@ -1,3 +1,8 @@
+# Human-to-Machine Date Translation Using Attention-Based Deep Learning
+
+## Overview
+This project implements a Seq2Seq model with attention in PyTorch to convert human-readable dates (e.g., "23 January 01") to machine-readable format (e.g., "2001-01-23"). The model achieved **96% accuracy** on the validation set.
+
 ## Key Features
 - **Encoder**: LSTM-based encoder processes input sequences.
 - **Attention**: Helps decoder focus on relevant parts of input.
